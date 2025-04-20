@@ -19,7 +19,7 @@ public class HomeController {
 
     @GetMapping
     public String main() {
-        return "hi, " + secretWord;
+        return "[ hi, " + secretWord + " ]";
     }
 
     @GetMapping("/buckets")
